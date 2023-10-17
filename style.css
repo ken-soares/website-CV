@@ -275,10 +275,15 @@ body {
 
 /** Responsive design **/
 
-@media(max-width:768px){
+@media(max-width:1080px){
 
+    .profile-card .profile-details{
+        font-size:18px;
+    }
     .profile-card{
-        max-width:95%;
+        max-width:90%;
+        min-height:30%;
+        padding:2rem;
     }
 
     body{
