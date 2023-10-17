@@ -48,7 +48,6 @@ body {
 
 .container{
     animation: transitionIn 2s;
-    overflow-y:hidden;
     z-index:100;
     display:flex;
     justify-content:space-around;
@@ -275,12 +274,6 @@ body {
 
 
 /** Responsive design **/
-
-@media(min-width:1230px){
-    body{
-        overflow:hidden;
-    }
-}
 
 @media(max-width:768px){
 
