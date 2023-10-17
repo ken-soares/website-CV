@@ -277,6 +277,10 @@ body {
 
 @media(max-width:1080px){
 
+    .row .content span{
+        font-size:28px
+    }
+
     .download-btn{
         font-size:35px;
     }
@@ -284,8 +288,8 @@ body {
         font-size:35px;
     }
     .profile-card{
-        max-width:90%;
-        min-height:30%;
+        max-width:95%;
+        min-height:35%;
         padding:3rem;
     }
 
