@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div>
+    <a href="/index.html">< back</a>
+    <h1>{{ data.metadata.title }}</h1>
+    <h3>author: {{ data.metadata.author }}</h3>
+    <h3>published on: {{ data.metadata.date }}</h3>
+    <p>
+        {{ data.content }}
+    </p>
+</div>
+
+{% endblock %}
