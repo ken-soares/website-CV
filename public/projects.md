@@ -2,7 +2,7 @@
 I am working part time on this Shoot'em Up video game. It is inspired by Death Smiles and has an unique mechanic which
 is the cauldron. I won't spoil the game before release but this is what was made in the last dev log.
 
-[![shoot'em up](http://img.youtube.com/vi/muFrmhZBnDs/0.jpg)](http://www.youtube.com/watch?v=muFrmhZBnDs "watch video")
+[![shoot'em up](https://img.youtube.com/vi/muFrmhZBnDs/0.jpg)](https://www.youtube.com/watch?v=muFrmhZBnDs "watch video")
 
 I am also working on learning enet in order to make my first multiplayer game in c++.
 
