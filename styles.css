@@ -80,12 +80,11 @@ a {
 }
 
 /* mobile page structure */
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width: 800px) {
 
     .banner {
         padding-top: 1%;
         padding-bottom: 1%;
-        width: 90%;
     }
     
     .banner h1 {
