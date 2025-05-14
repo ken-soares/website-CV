@@ -8,16 +8,23 @@
     --outline: #666;
 }
 
-b {
-    color: #111;
-}
-
 body {
     font-family: "Faustina", serif;
     background-color: var(--bg);
     color: var(--text);
 }
 
+/* general styling */
+b {
+    color: #111;
+}
+
+a {
+    text-decoration:none;
+    color: var(--tabs);
+}
+
+/* desktop page structure */
 .banner {
     background-color: var(--con);
     display: flex;
@@ -25,15 +32,14 @@ body {
     align-items:center;
     margin: 0 auto;
     width: 80%;
-    height: 180px;
     border: 1px solid var(--banout);
 }
 
-h1 {
+.banner h1 {
     margin-bottom: 6px;
 }
 
-h2 {
+.banner h2 {
     margin-top: 6px;
 }
 
@@ -46,6 +52,11 @@ h2 {
     margin: 20px;
     background-color: var(--tabs);
     overflow:hidden;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-around;
 }
 
 .tab {
@@ -68,12 +79,24 @@ h2 {
     padding:10px;
 }
 
-.bar {
-    display: flex;
-    justify-content: space-around;
-}
+/* mobile page structure */
+@media only screen and (max-width : 800px) {
 
-a {
-    text-decoration:none;
-    color: var(--tabs);
+    .banner {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 90%;
+    }
+    
+    .banner h1 {
+        font-size: 40px;
+    }
+    
+    .doggo {
+        width: 15%;
+    }
+    
+    .tab {
+        padding: 2%;
+    }
 }
