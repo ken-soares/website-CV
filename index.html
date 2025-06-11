@@ -19,17 +19,16 @@
         <img class="doggo" src="https://64.media.tumblr.com/ad2210d9c3008742e29a36c78d1c480e/4da188252d8e6420-16/s75x75_c1/1ff82dcad99ea2d192e417526866429e27851452.gif"/>
     </div>
     
-    <div class="main" x-data="tabComponent()" x-init="load_file('infos')">
+    <div class="main" x-data="tabComponent()" x-init="load_data('infos')">
         <span class="bar">
-            <div class="tab" x-bind:class="{active: tab === 'infos'}" x-on:click="load_file('infos')">ABOUT</div>
-            <div class="tab" x-bind:class="{active: tab === 'projects'}" x-on:click="load_file('projects')">PROJECTS</div>
-            <div class="tab" x-bind:class="{active: tab === 'links'}" x-on:click="load_file('links')">LINKS</div>
-            <div class="tab" x-bind:class="{active: tab === 'cv'}" x-on:click="load_file('cv')">CURRICULUM VITAE</div>
+            <div class="tab" x-bind:class="{active: tab === 'infos'}" x-on:click="load_data('infos')">ABOUT</div>
+            <div class="tab" x-bind:class="{active: tab === 'projects'}" x-on:click="load_data('projects')">PROJECTS</div>
+            <div class="tab" x-bind:class="{active: tab === 'links'}" x-on:click="load_data('links')">LINKS</div>
+            <div class="tab" x-bind:class="{active: tab === 'cv'}" x-on:click="load_data('cv')">CURRICULUM VITAE</div>
         </span>
         <div class="content" id="content">
             <p>If you see this, the markdown content for this tab wasn't loaded correctly.</p>
         </div>
     </div>
-    
 </body>
 </html>
